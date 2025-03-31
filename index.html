@@ -20,13 +20,14 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <button id="play">Play Music</button>
     <script>
-        let no-button = document.getElementById("no-button");
+        let no-button = document.getElementById("play");
             function playMusic() {
              let audio = new Audio("blue.mp3");
              audio.play()
           }
-          no-button.addEventListener("click", playMusic);
+          play.addEventListener("click", playMusic);
     </script>
 </body>
 </html>

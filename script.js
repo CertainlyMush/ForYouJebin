@@ -20,9 +20,7 @@ function handleNoClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
-   <script>
-        let play = document.getElementById("play");
-            function playMusic() {
+function playMusic() {
              let audio = new Audio("blue.mp3");
              audio.play()
           }

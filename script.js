@@ -20,13 +20,6 @@ function handleNoClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
-function playMusic() {
-             let audio = new Audio("blue.mp3");
-             audio.play()
-          }
-          play.addEventListener("click", playMusic);
-   </script>
-
 function handleYesClick() {
     window.location.href = "yes_page.html";
 }

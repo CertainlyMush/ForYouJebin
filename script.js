@@ -2,11 +2,10 @@ const messages = [
     "Jebin, are you sure?",
     "Really sure??",
     "Let's give it a try, just think about it!",
-    "Pookie please...",
+    "Pookie pleasee, pretty pleasee",
     "I'm serious about you!!!",
     "If you say no, I'll be really sad..",
-    "Oke fine, I'll stop...",
-    "JK, I'LL NEVER GIVE UP ON YOU!"
+    "I'LL JUST NEVER GIVE UP ON YOU!"
 ];
 
 let messageIndex = 0;
